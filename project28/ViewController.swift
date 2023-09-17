@@ -140,7 +140,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     }
     
     func showPinEntryError() {
-        let ac = UIAlertController(title: "Неверно", message: "Попробуйте еще раз", preferredStyle: .alert)
+        let ac = UIAlertController(title: "Неверный пин-код", message: "Повторите ввод", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
         present(ac, animated: true)
     }
